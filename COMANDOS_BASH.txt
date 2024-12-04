@@ -1,0 +1,18 @@
+git clone "http..." sin comillas  *clona el repositorio a una carpeta local (se debe hacer el bash dentro de la carpeta donde queremos meter el repo)
+
+cd "nombre del repo" sin comillas, entramos al repo
+
+git remote -v podemos ver la ruta (origin)
+
+git checkout -b "nombre de la Branch" sin comillas
+
+git status  vemos el estado de los commits, pulls y demás
+
+git add . para agregar todos los cambios
+
+git commit -m "nombre del mensaje del commit" con comillas
+
+git merge "main" va sin comillas y puse main como ejemplo, sirve para traer la data que este en la nube, al espacio local (hay que estar en la rama donde queremos que se traiga la info, utilizando checkout)
+
+git push origin "rama a enviar" ,va sin comillas
+
