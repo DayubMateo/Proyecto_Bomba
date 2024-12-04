@@ -97,3 +97,5 @@ void ReReset(){
   myData.win = false;
   myData.lose = false;
 }
+
+//ME CAGUE ENCIMA
